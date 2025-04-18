@@ -1,13 +1,15 @@
-#import the Pet class from the Pet module.
+# import the Pet class from the Pet module.
 from Pet import Pet
+
 # Create an instance of the Pet class.
-# The instance is created with the name "Kenan" and default values for hunger, energy, and happiness.
-Pet= Pet("Kenan", hunger=17, energy=3, happiness=0)
-# Create an instance of the Pet class
-Pet.eat()
+# The instance is created with the name "Kenan" and specified values.
+kenan_pet = Pet("Kenan", hunger=1, energy=3, happiness=0)
+
 # Call the eat method
-Pet.sleep() 
+kenan_pet.eat()
 # Call the sleep method
-Pet.play()
+kenan_pet.sleep()
 # Call the play method
-Pet.get_status()
+kenan_pet.play()
+# Call the get_status method
+kenan_pet.get_status()
